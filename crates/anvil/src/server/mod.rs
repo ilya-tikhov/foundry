@@ -1,5 +1,4 @@
 //! Contains the code to launch an Ethereum RPC server.
-
 use crate::{EthApi, IpcTask};
 use anvil_server::{ipc::IpcEndpoint, ServerConfig};
 use axum::Router;
